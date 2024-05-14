@@ -1,6 +1,6 @@
 package Newton;
 
-public class Ejemplo_1 {
+public class Ejemplo_2 {
 
     public static double interpolate(double[] x, double[] y, double xTarget) {
         double yTarget = y[0];
@@ -18,10 +18,10 @@ public class Ejemplo_1 {
     }
 
     public static void main(String[] args) {
-        double[] x = {1, 2, 3, 4, 5};
+        double[] x = {10, 20, 30, 40, 50};
         double[] y = {20, 40, 60, 80, 100};
 
-        double xTarget = 2.5;
+        double xTarget = 5.2;
 
         double yTarget = interpolate(x, y, xTarget);
 
